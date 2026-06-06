@@ -41,6 +41,7 @@ Virtual functions such as `authenticate()` and `display()` are overridden in der
 - SmartTaskUsers.txt
 - SmartTaskChat.txt
 - report.html
+- SmartTaskGUI
 
 ## Compilation
 
