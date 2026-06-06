@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>SmartTask Report</title>
+<style>
+  body{font-family:Arial,sans-serif;background:#1a1a2e;color:#eee;padding:30px;}
+  h1{color:#e94560;text-align:center;}
+  .cards{display:flex;gap:20px;justify-content:center;margin:20px 0;}
+  .card{background:#16213e;border-radius:10px;padding:20px 30px;text-align:center;min-width:110px;}
+  .card h2{font-size:2em;margin:0;}
+  .t h2{color:#4fc3f7;} .d h2{color:#81c784;}
+  .p h2{color:#ffb74d;} .o h2{color:#e57373;}
+  table{width:100%;border-collapse:collapse;margin-top:24px;}
+  th{background:#0f3460;padding:10px;text-align:left;}
+  td{background:#16213e;padding:8px;border-bottom:1px solid #333;}
+  .high{color:#e57373;font-weight:bold;}
+  .medium{color:#ffb74d;} .low{color:#81c784;}
+  .done-s{color:#81c784;} .pending-s{color:#ffb74d;}
+  .overdue-s{color:#e57373;font-weight:bold;}
+</style></head><body>
+<h1>SmartTask Dashboard Report</h1>
+<p style="text-align:center;color:#aaa;">Generated: 2026-06-05</p>
+<div class="cards">
+  <div class="card t"><h2>3</h2><p>Total</p></div>
+  <div class="card d"><h2>1</h2><p>Done</p></div>
+  <div class="card p"><h2>2</h2><p>Pending</p></div>
+  <div class="card o"><h2>0</h2><p>Overdue</p></div>
+</div>
+<table>
+<tr><th>ID</th><th>Description</th><th>Owner</th><th>Assignee</th>
+    <th>Priority</th><th>Deadline</th><th>Status</th></tr>
+<tr><td>4</td><td>OOP Report Feature</td><td>amna</td><td>amna</td><td class='medium'>medium</td><td>none</td><td class='pending-s'>Pending</td></tr>
+<tr><td>5</td><td>OOP Add Task Feature</td><td>Zarish</td><td>Zarish</td><td class='medium'>medium</td><td>none</td><td class='pending-s'>Pending</td></tr>
+<tr><td>6</td><td>OOP Prpject </td><td>zarish</td><td>@amna</td><td class='medium'>medium</td><td>2026-05-06</td><td class='done-s'>Done</td></tr>
+</table></body></html>
